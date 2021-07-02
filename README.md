@@ -24,14 +24,23 @@ To determine what funding goal has the best chance of getting funded I tabulated
 
 ### Challenges and Difficulties Encountered
 
-
+I did not encounter any challenges with this particular analysis.  One possible challenge could have been if the outcomes were not definitive.  
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+  1. The clear winner for best launch month is May.
+  2. There is a fairly even number of failed and canceled projects throughout the year.
 
 - What can you conclude about the Outcomes based on Goals?
+  1. There is a steady decline in success rate the higher the goal amount until you get to the $35k - $45k amount, but the number of projects in this segment is very small and may not be an accurate representation.
 
 - What are some limitations of this dataset?
+  1. Kickstarter is just one of many crowdfunding platforms.  To get a more accurate picture, other crowdfunding platforms should be analyzed as well.
+  2. This data doesn't include information on any advertising that may have been done about the crowdfunding campaigns.  This could have a significant impact on the success of the campaign.
 
 - What are some other possible tables and/or graphs that we could create?
+  1. Vertical bar graphs could have been used instead of line charts.  
+  2. For the "Outcomes Based on Goal" chart we could have used a vertical bar graph only showing percentage successful which is an easier to understand representation of what we are trying to portray. (shown below)
+  
+  ![Outcomes_vs_Goals bargraph](https://user-images.githubusercontent.com/85706721/124212228-9a28bd00-dabc-11eb-8bd9-2cd67e52f45e.png)
