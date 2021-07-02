@@ -1,17 +1,37 @@
-# An Analysis of Kickstarter Campaigns.
-Performing analysis on Kickstarter data to uncover trends for the viability of a theater project.
+# Kickstarting with Excel
 
-## Data Included in this analysis
-* Category Statistics
-* Subcategory Statistics
-* Outcomes Based on Launch Date
-* Edinburgh Research
-* Successful US Kickstarters vs Failed US Kickstarters
-* Mean, Median, Standard Deviation, Upper Quartile, Lower Quartile, and IQR statistics
+## Overview of Project
+
+This project performs data analysis on Kickstarter crowdfunding projects to discover trends of theater projects.
+
+### Purpose
+
+Louise wants to know the outcome of other campaigns based on their launch dates and funding goals.  I aim to identify the best launch date and funding goal by analyzing the Kickstarter data.
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+
+To determine when would be the best time to launch a theater crowdfunding project I created a pivot table showing the number of successful, failed, and canceled theater projects by launch month.  This data is visualized below in a line chart.
+
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/85706721/124209478-9e9ea700-dab7-11eb-99d2-06f23afe8daa.png)
+
+### Analysis of Outcomes Based on Goals
+
+To determine what funding goal has the best chance of getting funded I tabulated the number of successful, failed, and canceled crowdfunding projects under the "plays" subcategory split out by different funding goal ranges.  I used the COUNTIFS formula (ex. =COUNTIFS(Kickstarter!$D:$D, "<1000", Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays"))  to get the required data into the corresponding cell.  This data is visualized below in a line chart.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/85706721/124210323-3781f200-dab9-11eb-8f7e-62804114405a.png)
+
+### Challenges and Difficulties Encountered
 
 
-![Outcomes Based on Launch Date](https://user-images.githubusercontent.com/85706721/123566008-a47d4b00-d78c-11eb-9cfd-f513e607bc26.jpg)
 
-![Parent Category Outcomes Chart](https://user-images.githubusercontent.com/85706721/123566022-aa732c00-d78c-11eb-9083-6fb4b71e2fc5.jpg)
+## Results
 
-![box plot](https://user-images.githubusercontent.com/85706721/123566083-d0003580-d78c-11eb-8725-bdc147f8103b.jpg)
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+- What can you conclude about the Outcomes based on Goals?
+
+- What are some limitations of this dataset?
+
+- What are some other possible tables and/or graphs that we could create?
