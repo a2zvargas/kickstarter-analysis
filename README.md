@@ -33,7 +33,7 @@ I did not encounter any challenges with this particular analysis.  One possible 
   2. There is a fairly even number of failed and canceled projects throughout the year.
 
 - What can you conclude about the Outcomes based on Goals?
-  1. There is a steady decline in success rate the higher the goal amount until you get to the $35k - $45k amount, but the number of projects in this segment is very small and may not be an accurate representation.
+  1. There is a steady decline in success rate the higher the goal amount until the $35k - $45k amount, but the number of projects in this segment is very small and may not be an accurate representation.
 
 - What are some limitations of this dataset?
   1. Kickstarter is just one of many crowdfunding platforms.  To get a more accurate picture, other crowdfunding platforms should be analyzed as well.
