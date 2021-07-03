@@ -24,7 +24,7 @@ To determine what funding goal has the best chance of getting funded I tabulated
 
 ### Challenges and Difficulties Encountered
 
-I did not encounter any challenges with this particular analysis.  One possible challenge could have been if the outcomes were not definitive.  
+I did not encounter any challenges with this analysis.  One possible challenge could have been if the outcomes were not definitive.  
 
 ## Results
 
